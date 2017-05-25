@@ -1,0 +1,84 @@
+
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+body{
+	background: url('background-hd.jpg');
+	background-color: lightgray;
+}
+table{
+	background-color: lightblue;
+	border-radius: 10px;
+	width: 80%;
+	height: 80px;
+	margin: auto;
+
+}
+a{
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+
+}
+a:hover{
+	background-color: gray;
+}
+th{
+	text-align: left;
+	padding-left: 5px;
+	width: 300px;
+	font-size: 15px;
+}
+h1{
+	text-align: center;
+	color:white;
+
+}
+#todo_item_description{
+	width: 300px;
+	height: 25px;
+	font-size: 18px;
+	font-family: tahoma;
+}
+form{
+	margin: auto;
+	width: 80%;
+	background-color: lightblue;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+
+}
+label{
+	padding: 10px;
+}
+input[type=submit][name=commit]{
+	width: 100px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	text-transform: capitalize;
+	border:none;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 1px 2px gray;
+
+}
+a[href=/todo_items/1/edit]{
+	background-color: red;
+}
+p{
+	padding: 50px;
+	background-color: white;
+	border-radius: 20px;
+}
+#notice{
+	padding: 5px;
+	background-color: transparent;
+}
+strong {
+	font-family: Tahoma;
+	font-size: 18px;
+}
